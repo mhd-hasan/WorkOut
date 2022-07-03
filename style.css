@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image:url(../w.png);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -170px;
+}
+li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(25, 27, 27);
+    padding: 5px 20px;
+    border: 1px solid green;
+    transition: 0.4s ease;
+    border-radius: 5px;
+}
+ul li a:hover{
+    background-color: rgb(15, 14, 14);
+    color: rgb(240, 243, 237);
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+h1{
+    margin-top: 40px;
+    margin-left: 3%;
+}
+p{
+    margin-top: 10px;
+    margin-left: 3%;
+}
+    
+.btn a{
+   background-color: rgb(5, 86, 108);
+    color: white;
+    text-decoration: none;
+    margin-right: 85%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn a:hover{
+    background-color: rgb(11, 11, 11);
+    color: rgb(236, 230, 230);
+}
+#cypic{
+    margin-top: 30%;
+    margin-left: 3%;
+}
+#cypic img{
+    border-radius: 10px;
+}
+#cypara{
+    text-align: justify;
+    margin-right: 3%;
+    margin-left: 30%;
+    margin-top: -13%;
+    color: black;
+}
+.contant-head{
+    font-size: x-large;
+    color: rgb(80, 89, 213);
+}
+.contant-head a{
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: beige;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+#swimpic{
+    margin-top: 15%;
+    margin-left: 3%;
+}
+#swimpic img{
+    border-radius: 10px;
+}
+#swimpara{
+    text-align: justify;
+    margin-right: 3%;
+    margin-left: 30%;
+    margin-top: -13%;
+    color: rgb(7, 7, 7);
+}
+.form{
+    text-align: end;
+    margin-right: 3%;
+}
+.logbtn a{
+    background-color: rgb(5, 86, 108);
+    color: rgb(241, 236, 236);
+    text-decoration: none;
+    transition: 3s ease;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 60%;
+}
+.logbtn a:hover{
+    background-color: rgb(11, 11, 11);
+    color: rgb(236, 230, 230);
+}
+.form{
+    border: 3px solid black;
+    margin-left:70% ;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(200, 206, 206);
+}
+.form input{
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.for h2{
+    color: brown;
+}
